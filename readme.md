@@ -1,10 +1,7 @@
-# COMPSCI-235-Lab-4-People
 
 ## Description
 
-This is the repository for Lab 4 (Week 6) of COMPSCI 235 at the University of Auckland.
-
-<a href="https://canvas.auckland.ac.nz/courses/60516/pages/lab-4-week-6-config-templates-blueprints-wtforms?module_item_id=1258645">Further description and instructions for the lab can be found on the canvas page.</a>
+Solution
 
 ## Installation
 
@@ -22,8 +19,6 @@ When using PyCharm, set the virtual environment using 'File'->'Settings' and sel
 ## Execution
 
 **Running the application**
-
-From the *COMPSCI-235* directory, and within the activated virtual environment (see *venv\Scripts\activate* above):
 
 ````shell
 $ flask run

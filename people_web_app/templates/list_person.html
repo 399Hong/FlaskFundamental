@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<main>
+    {% if person != none %}
+    <table>
+        <tr>
+            <th>Id number</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        
+            <tr>
+                <td>{{ person.id_number }}</td>
+                <td>{{ person.firstname }}</td>
+                <td>{{ person.lastname }}</td>
+            </tr>
+    </table>
+    {% else %}
+     <p> No infomation found...</p>
+    {% endif %}
+</main>
+
+{% endblock %}
