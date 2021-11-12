@@ -41,4 +41,20 @@ The homepage can be accessed from a Web browser:
 
 http://127.0.0.1:5000/
 
+
+### Task 1
+
+> In the root directory of the project create a .env  le and set
+the four key Flask con guration variables. (FLASK APP,
+FLASK ENV, SECRET KEY, and TESTING) Hint: Flask
+Environment Documentation
+> Create a  le named con g.py in the root directory of the
+project. Use dotenv to read the .env  le and to set the Flask
+con guration variables in the Con g class. Hint: See con g.py
+in Demo Project
+> Assuming you have included FLASK ENV = `development',
+the Web application is now con gured to dump exception
+stack traces in the Web browser and to automatically reload
+the application in the Web server in response to any source
+code edits you make.
  
