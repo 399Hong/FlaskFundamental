@@ -10,7 +10,6 @@ This Flask fundamental exercise is for Hong's Python2 class.
 **Installation via requirements.txt**
 
 ```shell
-$ cd COMPSCI-235
 $ py -3 -m venv venv
 $ venv\Scripts\activate
 $ pip install -r requirements.txt
@@ -19,7 +18,6 @@ $ pip install -r requirements.txt
 
 **Installation via requirements.txt(For macOS/Linux)**
 ```shell
-$ cd COMPSCI-235
 $ python3 -m venv venv
 $ . venv/bin/activate
 $ pip3 install -r requirements.txt
