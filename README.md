@@ -23,8 +23,6 @@ $ . venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-When using PyCharm, set the virtual environment using 'File'->'Settings' and select 'Project:COMPSCI-235' from the left menu. Select 'Project Interpreter', click on the gearwheel button and select 'Add'. Click the 'Existing environment' radio button to select the virtual environment. 
-
 ## Execution
 
 **Running the application**
@@ -47,7 +45,7 @@ the four key Flask configuration variables. (FLASK APP,
 FLASK ENV, SECRET KEY, and TESTING) 
 
 > Create a file named config.py in the root directory of the
-project. Use dotenv to read the .env  le and to set the Flask
+project. Use dotenv to read the .env file and to set the Flask
 configuration variables in the Config class.
 
 > Assuming you have included FLASK ENV = 'development',
