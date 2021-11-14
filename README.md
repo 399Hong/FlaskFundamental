@@ -68,7 +68,7 @@ template, it should extend layout.html. The homepage should
 override the block named content with something as simple.
 
 ### Task 4
->This template should be named list person.html, and similarly
+>This template should be named list_person.html, and similarly
 to home.html and list people.html should extend layout.html.
 Assume that one variable (named person) will be supplied to
 list person's content block; this is to be a Person object but
