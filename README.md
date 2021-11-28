@@ -141,7 +141,7 @@ extend layout.html
 >The purpose of the form is to allow users to enter a person's
 ID and then to post it to the Web app.
 
->  - The content block in  nd person.html should be overridden,
+>  - The content block in find person.html should be overridden,
 and include the following variables in Jinja expressions:  
 >       - handler_url, the URL to post the form to.
 >       - form.csrf_token, a hidden field that stores the form's csrf token.
