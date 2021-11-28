@@ -156,7 +156,7 @@ blueprint. Recall that all view methods that
 handle requests to retrieve (GET) and process (POST) forms
 follow the same pattern:
 > - Instantiate a WTForm subclass.
-> - Call validate on submit() on the form object. If this method
+> - Call validate_on_submit() on the form object. If this method
 returns True, it means that the HTTP request is a POST and
 any validation associated with the form has passed.
 
